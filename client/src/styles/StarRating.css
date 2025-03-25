@@ -1,0 +1,29 @@
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  color: #ddd;
+  font-size: 1.2rem;
+  margin-right: 2px;
+}
+
+.star.filled {
+  color: #f39c12;
+}
+
+.star.editable {
+  cursor: pointer;
+}
+
+.star.editable:hover {
+  transform: scale(1.2);
+}
+
+.rating-value {
+  margin-left: 5px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
